@@ -1,7 +1,7 @@
-const start= require("../commands/start");
+const start = require('../commands/start');
 
 const commands = {
-  start
-}
+  start,
+};
 
 module.exports = commands;

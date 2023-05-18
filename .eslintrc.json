@@ -1,18 +1,18 @@
 {
   "extends": [
+    "eslint:recommended",
     "prettier"
   ],
+  "parserOptions": {
+  "ecmaVersion": "latest"
+},
+  "env": {
+    "es6": true,
+    "node": true
+  },
   "rules": {
     "semi": [2, "always"],
-    "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/no-var-requires": 0,
-    "prettier/prettier": "error",
-    "no-restricted-imports": [
-      "error",
-      {
-        "patterns": ["@mui/*/*/*", "!@mui/material/test-utils/*"]
-      }
-    ]
+    "prettier/prettier": "error"
   },
   "plugins": ["prettier"]
 
