@@ -528,7 +528,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.9.0":
+"eslint@npm:^8.40.0":
   version: 8.40.0
   resolution: "eslint@npm:8.40.0"
   dependencies:
@@ -1671,7 +1671,7 @@ __metadata:
   dependencies:
     "@typescript-eslint/eslint-plugin": ^5.59.5
     dotenv: ^16.0.3
-    eslint: ^8.9.0
+    eslint: ^8.40.0
     eslint-config-prettier: ^8.4.0
     eslint-plugin-prettier: ^4.2.1
     i18next: ^22.4.15
