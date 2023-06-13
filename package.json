@@ -2,7 +2,8 @@
   "name": "watchdog",
   "packageManager": "yarn@3.5.1",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
