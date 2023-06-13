@@ -8,6 +8,7 @@ exports.up = function (knex) {
     table.string('first_name', 255).notNullable();
     table.string('last_name', 255).notNullable();
     table.string('username', 255).notNullable();
+    table.string('language_code', 255).notNullable();
     table.integer('tg_id').unique();
   });
 };
@@ -17,5 +18,5 @@ exports.up = function (knex) {
  * @returns {Knex.SchemaBuilder}
  */
 exports.down = function (knex) {
-  return knex.schema.dropTable('products').dropTable('users');
+  return knex.schema.dropTable('users');
 };

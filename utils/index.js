@@ -5,6 +5,9 @@ function replacePlaceholders(str, ctx) {
       case '{{username}}':
         str = str.replace('{{username}}', `${ctx.from.username}`);
         break;
+      case '{{group}}':
+        str = str.replace('{{group}}', `${ctx.chat.title}`);
+        break;
     }
   }
   return str;

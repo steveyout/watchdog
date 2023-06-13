@@ -1,3 +1,4 @@
 {
-  "welcome": "Welcome {{username}} to the All cool moderator bot.I can help you manage your *Telegram* group without a Hassle"
+  "welcome": "Welcome {{username}} to the All cool moderator bot.I can help you manage your *Telegram* group without a Hassle",
+  "welcomeChatMember": "Welcome @{{username}} to {{group}} \uD83D\uDC4B"
 }
